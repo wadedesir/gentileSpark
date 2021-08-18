@@ -14,7 +14,7 @@ setupRoutes(app)
 
 app.use(morgan('dev')); // use morgan middleware
 app.use(express.static('public')) //access files inside our public folder
-
+app.use(express.static('node_modules'))
 app.set('view engine', 'ejs') // set up ejs for templating
 
 // launch ======================================================================
