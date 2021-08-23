@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+html {
+  font-size: 12px;
+  scroll-behavior: smooth;
+}
+
+body {
+  line-height: 1.4;
+  font-family: "Lato", "Brush Script MT", "Garamond";
+  /* background-color: blue; */
+  /* color: white; */
+}
+
+/******************************************
+/* GLOBAL LAYOUT
+/*******************************************/
+
+
+/* ***** NAV ****** */
+.navbar a{
+    font-size: 2rem;
+    color: white;
+}
+
+/* ***** HOME ****** */
+/* ***************** */
+
+.home{
+    background: rgb(65, 216, 131);
+    background: -moz-linear-gradient(180deg, rgb(65, 216, 131) 0%, rgba(59,245,189,1) 35%, rgba(97,240,230,1) 62%, rgba(81,226,255,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgb(65, 216, 131) 0%, rgba(59,245,189,1) 35%, rgba(97,240,230,1) 62%, rgba(81,226,255,1) 100%);
+    background: linear-gradient(180deg, rgb(65, 216, 131) 0%, rgba(59,245,189,1) 35%, rgba(97,240,230,1) 62%, rgba(81,226,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#50fc9b",endColorstr="#51e2ff",GradientType=1);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.home h1{
+    color: white;
+    font-size: 4rem;
+}
+
+.carousel-container{
+ height: 50%;
+ width: 100%;
+ margin-top: 10vh;
+ /* margin-bottom: 25%; */
+}
+
+
+
+
+
+/* ***** Utilities ****** */
