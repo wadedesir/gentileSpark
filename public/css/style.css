@@ -50,6 +50,16 @@ body {
     color: white;
 }
 
+header{
+  min-height: 70px;
+}
+
+header button{
+  
+}
+.bi-list{
+  font-size: xx-large;
+}
 /* ***** HOME ****** */
 /* ***************** */
 
